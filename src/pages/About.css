@@ -1,0 +1,156 @@
+.about-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  max-width: 900px;
+  background: white;
+  border-radius: 15px;
+  padding: 60px 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-size: 3rem;
+  color: #667eea;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #667eea;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0;
+}
+
+.about-text strong {
+  color: #764ba2;
+  font-weight: 600;
+}
+
+.founder-section {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  border-left: 5px solid #667eea;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cta-section .section-title {
+  color: white;
+}
+
+.cta-section .about-text {
+  color: #f4f4f4;
+}
+
+.cta-button {
+  background-color: white;
+  color: #667eea;
+  padding: 12px 40px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  background-color: #f4f4f4;
+}
+
+.cta-button:active {
+  transform: translateY(-1px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    padding: 40px 25px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .founder-section {
+    padding: 20px;
+  }
+
+  .cta-section {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 40px 15px;
+  }
+
+  .about-content {
+    padding: 30px 20px;
+    border-radius: 10px;
+  }
+
+  .about-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+    text-align: left;
+  }
+
+  .about-section {
+    margin-bottom: 25px;
+  }
+
+  .cta-button {
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+}
